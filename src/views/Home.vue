@@ -10,40 +10,7 @@ import database from "../database";
 export default {
   data() {
     return {
-      stocks: [],
-      columns: [
-        {
-          field: "id",
-          label: "ID",
-          width: "40",
-          numeric: true
-        },
-        {
-          field: "name",
-          label: "Product Name"
-        },
-        {
-          field: "description",
-          label: "Description"
-        },
-        {
-          field: "price",
-          label: "Price"
-        },
-        {
-          field: "quantity",
-          label: "Quantity",
-          centered: true
-        },
-        {
-          field: "gst",
-          label: "GST"
-        },
-        {
-          field: "total",
-          label: "Total"
-        }
-      ]
+      stocks: []
     };
   },
   mounted() {
